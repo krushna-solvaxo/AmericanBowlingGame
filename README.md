@@ -8,6 +8,6 @@
 
 -   To build code use commnd > dotnet build
 
-### unit test
+### Unit test
 
 -   To run unit test use command > dotnet test
