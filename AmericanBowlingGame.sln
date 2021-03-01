@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.514
+MinimumVisualStudioVersion = 15.0.26124.0
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{285CA4FD-02DA-41BE-BE3B-6EE5BBE0FE58}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{F7EB990C-954D-4273-9A49-0C2349BCDEE5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AmericanBowlingGame", "src\AmericanBowlingGame\AmericanBowlingGame.csproj", "{946368E1-AD1F-4053-9F49-1FC9635DF334}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AmericanBowlingGame.Tests", "test\AmericanBowlingGame.Tests\AmericanBowlingGame.Tests.csproj", "{F62B4030-F739-43DD-B28B-3E105EC70B3D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{946368E1-AD1F-4053-9F49-1FC9635DF334}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{946368E1-AD1F-4053-9F49-1FC9635DF334}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{946368E1-AD1F-4053-9F49-1FC9635DF334}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{946368E1-AD1F-4053-9F49-1FC9635DF334}.Debug|x64.Build.0 = Debug|Any CPU
+		{946368E1-AD1F-4053-9F49-1FC9635DF334}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{946368E1-AD1F-4053-9F49-1FC9635DF334}.Debug|x86.Build.0 = Debug|Any CPU
+		{946368E1-AD1F-4053-9F49-1FC9635DF334}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{946368E1-AD1F-4053-9F49-1FC9635DF334}.Release|Any CPU.Build.0 = Release|Any CPU
+		{946368E1-AD1F-4053-9F49-1FC9635DF334}.Release|x64.ActiveCfg = Release|Any CPU
+		{946368E1-AD1F-4053-9F49-1FC9635DF334}.Release|x64.Build.0 = Release|Any CPU
+		{946368E1-AD1F-4053-9F49-1FC9635DF334}.Release|x86.ActiveCfg = Release|Any CPU
+		{946368E1-AD1F-4053-9F49-1FC9635DF334}.Release|x86.Build.0 = Release|Any CPU
+		{F62B4030-F739-43DD-B28B-3E105EC70B3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F62B4030-F739-43DD-B28B-3E105EC70B3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F62B4030-F739-43DD-B28B-3E105EC70B3D}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{F62B4030-F739-43DD-B28B-3E105EC70B3D}.Debug|x64.Build.0 = Debug|Any CPU
+		{F62B4030-F739-43DD-B28B-3E105EC70B3D}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{F62B4030-F739-43DD-B28B-3E105EC70B3D}.Debug|x86.Build.0 = Debug|Any CPU
+		{F62B4030-F739-43DD-B28B-3E105EC70B3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F62B4030-F739-43DD-B28B-3E105EC70B3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F62B4030-F739-43DD-B28B-3E105EC70B3D}.Release|x64.ActiveCfg = Release|Any CPU
+		{F62B4030-F739-43DD-B28B-3E105EC70B3D}.Release|x64.Build.0 = Release|Any CPU
+		{F62B4030-F739-43DD-B28B-3E105EC70B3D}.Release|x86.ActiveCfg = Release|Any CPU
+		{F62B4030-F739-43DD-B28B-3E105EC70B3D}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{946368E1-AD1F-4053-9F49-1FC9635DF334} = {285CA4FD-02DA-41BE-BE3B-6EE5BBE0FE58}
+		{F62B4030-F739-43DD-B28B-3E105EC70B3D} = {F7EB990C-954D-4273-9A49-0C2349BCDEE5}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DABA91CF-B5AC-4C93-95B7-90C04F052281}
+	EndGlobalSection
+EndGlobal
