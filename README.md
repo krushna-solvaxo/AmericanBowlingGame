@@ -2,8 +2,8 @@
 
 ## Build code
 
-### dotnet build
+-   To build code use commnd > dotnet build
 
 ## unit test
 
-### dotnet test
+-   To run unit test use command > dotnet test
