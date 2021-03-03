@@ -5,24 +5,30 @@ using AmericanBowlingGame.Frames;
 
 namespace AmericanBowlingGame
 {
-    public class BowlingGame
+    public class ScoreCalculator:IScoreCalculator
     {
         private List<int> _rolls;
         private List<IFrame> _frames;
 
-        public BowlingGame()
+        public ScoreCalculator()
         {
             _rolls = new List<int>();
             _frames = new List<IFrame>();
         }
-        public void RollWithOpenFrame(int firstRoll, int secondRoll)
+
+        public ScoreCalculator(List<int> rolls)
         {
-            _frames.Add(new OpenFrame(_rolls, firstRoll, secondRoll));
+            _rolls = rolls;
+            _frames = new List<IFrame>();
+        }
+        public void RollWithOpenFrame(int firstRollPin, int secondRollPin)
+        {
+            _frames.Add(new OpenFrame(_rolls, firstRollPin, secondRollPin));
         }
 
-        public void RollWithSpareFrame(int firstRoll, int secondRoll)
+        public void RollWithSpareFrame(int firstRollPin, int secondRollPin)
         {
-            _frames.Add(new SpareFrame(_rolls, firstRoll, secondRoll));
+            _frames.Add(new SpareFrame(_rolls, firstRollPin, secondRollPin));
         }
 
         public void RollWithStrikeFrame()
@@ -30,9 +36,9 @@ namespace AmericanBowlingGame
             _frames.Add(new StrikeFrame(_rolls));
         }
 
-        public void BonusRoll(int roll)
+        public void BonusRoll(int pins)
         {
-            _rolls.Add(roll);
+            _rolls.Add(pins);
         }
 
         public int Score()
